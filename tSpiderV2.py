@@ -279,7 +279,7 @@ def getTitle(soap):
         {'h1': {'class': 'title'}}
     ]
     # markdown一级标题
-    title = getDOM(soap, titlePath).string
+    title = tripStr(getDOM(soap, titlePath).string)
     return title
 
 
